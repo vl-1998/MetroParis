@@ -6,7 +6,8 @@ public class Fermata {
 
 	private int idFermata;
 	private String nome;
-	private LatLng coords;
+	private LatLng coords; //classe che permette gia di calcolare le distanza, fa parte di una libreria che contiene
+							//oggetti di questo tipo
 
 	public Fermata(int idFermata, String nome, LatLng coords) {
 		this.idFermata = idFermata;
